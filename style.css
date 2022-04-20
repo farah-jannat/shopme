@@ -1,6 +1,6 @@
 :root{
-    --main-color:#d3ad7f;
-    --black:#13131a;
+    --main-color:#018bc8;
+    --light-green:#9BE52E;
     --bg:#010103;
     --border:1px solid rgba(0,0,0,0.05)
 }
@@ -12,6 +12,7 @@
 }
 
 .header{
+    padding: 0 100px;
     height: 150px;
     border-bottom:var(--border);
     display: flex;
@@ -20,8 +21,18 @@
 
 .header .num p{
     color:#777;
+    padding: 0 80px;
 }
 .header .num span{
-    color:#777;
+    color: var(--light-green);
+}
+.header .search{
+    flex-grow: 1;
+    
+}
+.header .search input{
+    padding: 10px;
+    width: 550px;
+    
 }
 
