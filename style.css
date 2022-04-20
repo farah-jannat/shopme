@@ -1,0 +1,27 @@
+:root{
+    --main-color:#d3ad7f;
+    --black:#13131a;
+    --bg:#010103;
+    --border:1px solid rgba(0,0,0,0.05)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 150px;
+    border-bottom:var(--border);
+    display: flex;
+    align-items: center;
+}
+
+.header .num p{
+    color:#777;
+}
+.header .num span{
+    color:#777;
+}
+
