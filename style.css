@@ -1,7 +1,7 @@
 :root{
     --main-color:#018bc8;
     --light-green:#9BE52E;
-    --bg:#010103;
+    --bg:#F9FAFB;
     --border:1px solid rgba(0,0,0,0.05)
 }
 
@@ -29,10 +29,19 @@
 .header .search{
     flex-grow: 1;
     
+    
 }
 .header .search input{
-    padding: 10px;
+    border-radius: 5px;
+    border: var(--border);
+    background: var(--bg);
+    font-size: 15px;
+    padding: 13px;
     width: 550px;
+    
+}
+.header .search i{
+    font-size: 18px;
     
 }
 
