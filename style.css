@@ -56,3 +56,18 @@
     
 }
 
+.navber{
+    display: flex;
+    border-bottom:var(--border) ;
+}
+.navber li{
+    list-style: none;
+    padding: 17px 50px;
+    border-right: var(--border);
+}
+.navber li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
