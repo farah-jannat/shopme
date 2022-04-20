@@ -21,7 +21,7 @@
 
 .header .num p{
     color:#777;
-    padding: 0 80px;
+    padding: 0 60px;
 }
 .header .num span{
     color: var(--light-green);
