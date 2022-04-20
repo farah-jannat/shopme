@@ -40,8 +40,14 @@
     width: 550px;
     
 }
+.header .search .search-icon{
+    display: inline-block;
+    padding: 13px;
+    background: var(--main-color);
+    border: 1px solid var(--main-color);
+}
 .header .search i{
-    font-size: 18px;
+    font-size: 20px;
     
 }
 
