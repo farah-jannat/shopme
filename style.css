@@ -19,13 +19,16 @@
 }
 
 .header{
-    padding: 0 100px;
-    height: 150px;
+    padding: 30px 100px;
+    /* height: 150px; */
     border-bottom:var(--border);
     display: flex;
+    gap: 5rem;
     align-items: center;
 }
-
+.header .num{
+    white-space: nowrap;
+}
 .header .num p{
     color:#777;
     padding: 0 60px;
@@ -35,18 +38,27 @@
 }
 .header .search{
     flex-grow: 1;
-    position: relative;
+    /* position: relative; */
+    /* padding-right: 10%; */
+
     
     
 }
-.header .search input{
+.header .input-wrapper{
+    width: 100%;
+   
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    border: var(--border);
+    border: var(--border); display: flex;
+}
+.header .search input{
+   border: none;
     background: var(--bg);
     font-size: 15px;
     padding: 13px;
-    width: 550px;
+    /* width: 550px; */
+    /* width: 100%; */
+    flex-grow: 1;
     
     
 }
@@ -55,8 +67,8 @@
     padding: 10px;
     background: var(--main-color);
     border: 1px solid var(--main-color);
-    position: absolute;
-    top: 1%;
+    /* position: absolute; */
+    /* top: 1%; */
     
 }
 .header .search i{
@@ -68,7 +80,7 @@
     display: flex;
     /* align-items: center; */
     justify-content: space-between;
-    padding: 0 8%;
+    padding: 0 100px;
     border-bottom:var(--border) ;
 }
 .navber li{
@@ -77,6 +89,7 @@
     /* padding: 17px 50px; */
     padding: 1rem 0;
     border-right: var(--border);
+    border-left: var(--border);
     flex-grow: 1;
     display: grid;
     place-items: center;
