@@ -126,6 +126,33 @@
     color: black;
     
 }
+.banner{
+    background: var(--bg);
+    height: 100vh;
+}
+.banner .left-right{
+    padding: 40px 100px;
+    display: flex;
+    gap: 45px;
+    justify-content: space-between;
+    
+}
+.left-right .left{
+    width: 350px;
+    height: auto;
+    background: #000;
+}
+.left img{
+    width: 100%;
+}
+.left-right .right{
+    flex: 1 1 75;
+    /* width: 1050px; */
+    
+}
+.left-right .right img{
+    width: 100%;
+}
 
 
 
