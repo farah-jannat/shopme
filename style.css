@@ -162,7 +162,29 @@
     font-size: 60px;
     white-space: nowrap;
     position: absolute;
-    bottom:70%;
+    bottom:60%;
+    left: 50%;
+    transform: translate(-50% ,0%);
+}
+.right .part-1 h2{
+    color: #F9FAFB;
+    font-size: 30px;
+    text-align: center;
+    position: absolute;
+    bottom:40%;
+    left: 50%;
+    transform: translate(-50% ,0%);
+}
+.right .part-1 button{
+    color: #F9FAFB;
+    background:var(--main-color);
+    border: none;
+    border-radius: 5%;
+    font-size: 15px;
+    padding: 13px 24px;
+    /* text-align: center; */
+    position: absolute;
+    bottom:25%;
     left: 50%;
     transform: translate(-50% ,0%);
 }
