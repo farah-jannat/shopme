@@ -127,3 +127,33 @@
     
 }
 
+
+
+
+/*--------media query------ */
+
+@media screen and (max-width:1058px){
+    html{
+        font-size: 30%;
+    }
+    .header{
+        padding:30px 70px ;
+    }
+    .header .num p{
+        font-size: 15px;
+    }
+    .navber{
+        padding: 0px 70px;
+    }
+    .navber li{
+        white-space: nowrap;
+        list-style: none;
+        /* padding: 17px 50px; */
+        padding: 3rem 0;
+        border-right: var(--border);
+        border-left: var(--border);
+        flex-grow: 1;
+        display: grid;
+        place-items: center;
+    }
+}
