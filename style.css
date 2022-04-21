@@ -66,6 +66,7 @@
 
 .navber{
     display: flex;
+    padding: 0 8%;
     border-bottom:var(--border) ;
 }
 .navber li{
