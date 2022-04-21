@@ -139,6 +139,13 @@
     .header{
         padding:30px 70px ;
     }
+    .header .logo{
+        width: 200px;
+     }
+     .header .logo img{
+        width: 100%;
+        height: auto;
+     }
     .header .num p{
         font-size: 15px;
     }
@@ -155,5 +162,22 @@
         flex-grow: 1;
         display: grid;
         place-items: center;
+    }
+}
+@media screen and (max-width:870px){
+    html{
+        font-size: 30%;
+    }
+    .header .logo{
+       width: 150px;
+    }
+    .header .logo img{
+       width: 100%;
+       height: auto;
+    }
+}
+@media screen and (max-width:770px){
+    .login{
+        text-align: center;
     }
 }
