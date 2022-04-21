@@ -66,14 +66,25 @@
 
 .navber{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+
     padding: 0 8%;
     border-bottom:var(--border) ;
 }
 .navber li{
+    white-space: nowrap;
     list-style: none;
-    padding: 17px 50px;
+    /* padding: 17px 50px; */
+    padding: 1rem 0;
     border-right: var(--border);
+    flex-grow: 1;
+    display: grid;
+    place-items: center;
     
+}
+.navber li:last-child{
+    /* flex-grow: 1; */
 }
 .navber li a{
     text-decoration: none;
@@ -87,7 +98,7 @@
 }
 
 .cart{
-    width: 390px;
+    /* width: 390px; */
     
     
 }
