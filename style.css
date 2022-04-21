@@ -135,23 +135,36 @@
     display: flex;
     gap: 45px;
     justify-content: space-between;
+  
     
 }
 .left-right .left{
     width: 350px;
+    
     height: auto;
     background: #000;
 }
+
+
 .left img{
     width: 100%;
 }
 .left-right .right{
-    flex: 1 1 75;
-    /* width: 1050px; */
+    
+    position: relative;
     
 }
 .left-right .right img{
     width: 100%;
+}
+.right .part-1 h1{
+    color: #F9FAFB;
+    font-size: 60px;
+    white-space: nowrap;
+    position: absolute;
+    bottom:70%;
+    left: 50%;
+    transform: translate(-50% ,0%);
 }
 
 
