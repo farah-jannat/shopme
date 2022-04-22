@@ -128,7 +128,7 @@
 }
 .banner{
     background: var(--bg);
-    height: 100vh;
+
 }
 .banner .left-right{
     padding: 40px 100px;
