@@ -253,28 +253,35 @@
     border: var(--border);
 }
 .product{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)) ;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr)) ; */
     /* gap: 1.5rem; */
+    /* display: flex; */
+}
+.product{
     display: flex;
+    height: 55vh;
+    width: 100%;
 }
 
 .product .box{
     border: var(--border);
-    width: 280px; 
+    width: 100%; 
     height: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
     
 }
 .product .box .img{
-    width: 200px;
-    height: 32vh;
-    justify-content: center;
+    width: 75%;
+
 }
 .product .box img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
+    background-position: center;
 }
 
 
