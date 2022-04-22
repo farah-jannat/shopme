@@ -154,6 +154,15 @@
     flex-direction: column;
 }
 
+.left-right .right .part-3 {
+    border:var(--border);
+    height: 60vh;
+    width: 100%;
+}
+.left-right .right .part-3 h2{
+    font-size: 30px;
+}
+
 
 
 
