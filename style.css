@@ -216,8 +216,9 @@
 
 .left-right .right .part-3 {
     border:var(--border);
-    height: 60vh;
+    height: 80vh;
     width: 100%;
+    background: var(--white);
 }
 .left-right .right .part-3 h2{
     font-size: 30px;
