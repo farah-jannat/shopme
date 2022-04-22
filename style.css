@@ -111,6 +111,7 @@
 
 .cart{
     /* width: 390px; */
+    border-right: var(--border);
     
     
 }
