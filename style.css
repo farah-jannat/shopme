@@ -222,6 +222,12 @@
 
 
 /*--------media query------ */
+@media screen and (max-width:1115px){
+    .left-right .right .part-1{
+        width: 650px;
+        height: 60vh;
+    }
+}
 
 @media screen and (max-width:1058px){
     html{
