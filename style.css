@@ -224,6 +224,11 @@
     color: var(--black);
     
 }
+.right .container{
+    display: flex;
+    align-items: center;
+
+}
 
 .right .part-3 .care-btn{
     display: flex;
@@ -245,6 +250,18 @@
     padding: 2px 9px;
     background: var(--white);
     border: var(--border);
+}
+.product{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr)) ;
+    gap: 1.5rem;
+    display: flex;
+}
+
+.product .box{
+    border: var(--border);
+    /* width: 130px;
+    height: 100%; */
 }
 
 
