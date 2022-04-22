@@ -222,6 +222,17 @@
     color: var(--black);
 }
 
+.right .part-3 .care-btn{
+    display: flex;
+    gap: 10px;
+}
+.right .part-3 .care-btn span{
+    border: var(--border);
+    padding: 10px 15px;
+    border-radius: 5%;
+    background: var(--bg);
+}
+
 
 
 
