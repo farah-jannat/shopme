@@ -287,7 +287,13 @@
     object-fit: cover;
     background-position: center;
 }
-.product .box :nth-child(2){
+
+.product .box p{
+    color: var(--light-green);
+    font-size: 20px;
+
+}
+.product .box .first-p{
     color: var(--p);
     text-align: center;
     font-size: 13px;
@@ -295,11 +301,7 @@
     
 }
 
-.product .box p{
-    color: var(--light-green);
-    font-size: 20px;
 
-}
 .product .box p span{
     font-size: 15px;
     color:var(--p);
