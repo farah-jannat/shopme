@@ -241,6 +241,7 @@
 }
 .right .part-3 .care-btn span{
     border: var(--border);
+    border-bottom: none;
     padding: 10px 15px;
     border-radius: 5%;
     background: var(--white);
@@ -264,7 +265,9 @@
 }
 
 .product .box{
-    border: var(--border);
+    border-right: var(--border);
+    border-top: var(--border);
+    border-bottom: var(--border);
     width: 100%; 
     height: 100%;
     display: flex;
