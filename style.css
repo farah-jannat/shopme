@@ -221,9 +221,10 @@
     background: var(--white);
 }
 .left-right .right .part-3 h2{
-    font-size: 30px;
+    font-size: 27px;
     color: var(--black);
     background: var(--bg);
+    padding-bottom: 12px;
     
 }
 .right .container{
