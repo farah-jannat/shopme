@@ -225,6 +225,17 @@
         display: grid;
         place-items: center;
     }
+    .left-right .right .part-1{
+        width: 550px;
+        height: 60vh;
+    }
+    .left-right .right img{
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 }
 @media screen and (max-width:870px){
     html{
