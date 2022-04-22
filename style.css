@@ -228,6 +228,7 @@
 .right .container{
     display: flex;
     align-items: center;
+    gap:50%;
 
 }
 
@@ -252,12 +253,7 @@
     background: var(--white);
     border: var(--border);
 }
-.product{
-    /* display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr)) ; */
-    /* gap: 1.5rem; */
-    /* display: flex; */
-}
+
 .product{
     display: flex;
     height: 55vh;
