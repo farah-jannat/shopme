@@ -149,6 +149,18 @@
 .left img{
     width: 100%;
 }
+.left-right .right{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
 .left-right .right .part-1{
     height: 60vh;
     position: relative;
