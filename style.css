@@ -287,8 +287,32 @@
     object-fit: cover;
     background-position: center;
 }
+.product .box :nth-child(2){
+    color: var(--p);
+    text-align: center;
+    font-size: 13px;
+    white-space: nowrap;
+    
+}
+
 .product .box p{
-    color: #6b7280:
+    color: var(--light-green);
+    font-size: 20px;
+
+}
+.product .box p span{
+    font-size: 15px;
+    color:var(--p);
+    text-decoration: line-through;
+}
+.product .box .rating{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.product .rating .stars{
+    color: goldenrod;
 }
 
 
