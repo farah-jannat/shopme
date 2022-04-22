@@ -260,8 +260,11 @@
 
 .product .box{
     border: var(--border);
-    /* width: 130px;
-    height: 100%; */
+    width: 150px;
+    
+}
+.product .box img{
+    width: 100%;
 }
 
 
