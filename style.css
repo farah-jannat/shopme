@@ -236,6 +236,17 @@
     background: var(--white);
 }
 
+.right .part-3 .arrow{
+    display: flex;
+    gap: 10px;
+}
+.right .part-3 .arrow .arrow-prev, .arrow-next{
+    font-size: 13px;
+    padding: 2px 9px;
+    background: var(--white);
+    border: var(--border);
+}
+
 
 
 
