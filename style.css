@@ -162,6 +162,7 @@
 
 
 .left-right .right .part-1{
+    width: 820px;
     height: 60vh;
     position: relative;
     
@@ -205,6 +206,16 @@
     left: 50%;
     transform: translate(-50% ,0%);
 }
+.right .part-2{
+    
+    padding: 30px 0;
+    display: flex;
+    gap: 20px;
+}
+.right .part-2 img{
+    width: 100%;
+}
+
 
 
 
