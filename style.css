@@ -223,18 +223,21 @@
 .left-right .right .part-3 h2{
     font-size: 30px;
     color: var(--black);
+    background: var(--bg);
     
 }
 .right .container{
     display: flex;
     align-items: center;
     gap:50%;
+    background: var(--bg);
 
 }
 
 .right .part-3 .care-btn{
     display: flex;
-    gap: 10px;
+    gap: 3px;
+    white-space: nowrap;
 }
 .right .part-3 .care-btn span{
     border: var(--border);
