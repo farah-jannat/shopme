@@ -332,6 +332,19 @@
     padding: 13px 24px;
     cursor: pointer;
 }
+.btn-2{
+    color: #F9FAFB;
+    background:var(--bg);
+    color: var(--light-green);
+    border: none;
+    border-radius: 5%;
+    font-size: 15px;
+    padding: 13px 24px;
+    cursor: pointer;
+}
+.btn-part-3{
+    margin: 20px;
+}
 
 
 
