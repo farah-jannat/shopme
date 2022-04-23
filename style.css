@@ -284,6 +284,20 @@
     gap:20px;
     
 }
+
+
+.mySwiper{
+        height: 100%;
+}
+.swiper-wrapper{
+    align-items: center;
+}
+    
+.swiper-slide{
+    width: 100%;
+    height: 100%;
+    
+}
 .product .box-1{
     border-left: var(--border);
 }
